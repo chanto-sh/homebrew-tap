@@ -1,27 +1,27 @@
 class Chanto < Formula
   desc "Fast, lean coding agent for your terminal"
   homepage "https://chanto.sh"
-  version "0.1.21"
+  version "0.1.22"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/chanto-sh/chanto/releases/download/v#{version}/chanto-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "7f6486d4ba02449cab983ed8174517152dead4b19dce66904781eec62f06e4d7"
+      sha256 "acca2adc983e9cc82643e9db871e26093de8825d8a739c1885b00a5168999a24"
     end
     on_intel do
       url "https://github.com/chanto-sh/chanto/releases/download/v#{version}/chanto-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "994bd937bae423361253f25b5a02003b3fe13b0200de640215ab176fe070d3c2"
+      sha256 "f5737817fa88ff641f058bffc1c7ac4e9470bcaa50a4ae085756947bbf27163b"
     end
   end
   on_linux do
     on_arm do
       url "https://github.com/chanto-sh/chanto/releases/download/v#{version}/chanto-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "eb05e070a584ef30c5253b1ca7e3c2a03e7f10bd24cc571f6d26e0692f181736"
+      sha256 "3d2ed8297b53e306a32e47f4f499d278cfc673c077e84c3e22718a5586f73a3e"
     end
     on_intel do
       url "https://github.com/chanto-sh/chanto/releases/download/v#{version}/chanto-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f26cedc44946fa7cab5ed40f0675326b375dce60718bc541c6c435f98de841a4"
+      sha256 "6e52ab124082089dbe8b64064fead62e27c6c3c966343b3e650a33e908290115"
     end
   end
 
